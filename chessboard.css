@@ -1,0 +1,29 @@
+.rows {
+    display:flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.white-square {
+    width:110px;
+    height:110px;
+    background-color:white;
+}
+
+.black-square {
+    width:110px;
+    height:110px;
+    background-color: black;
+
+}
+
+#frame {
+ border: 30px solid rgba(74,52,36,1);
+ display: flex;
+ flex-direction: column;
+ margin:auto;
+ border-radius: 5%;
+}
